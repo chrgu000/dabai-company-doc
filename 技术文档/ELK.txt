@@ -1,0 +1,31 @@
+logstash:
+	Æô¶¯ÃüÁî£ºnohup bin/logstash -f /data/logstash/input_flter_output.conf &
+
+
+
+input{
+	path => ""
+	type => "error"
+	start_position => ""
+	codec => multiline {
+		pattern => ""
+		negate => true
+		what => ""
+	}
+}
+
+output {
+	if[type] == "error" {
+		elasticsearch {
+			hosts => ["192.168.77.155:9200"]
+			index => "logstash-error-log"
+		}
+	}
+}
+
+
+filter{
+  grok{
+    match=>{"message"=>"\[%{WORD:ProjectName}\] \[%{TIMESTAMP_ISO8601:Date}\] \[%{LOGLEVEL:Level}\] \[%{WORD:ClassName}\] \- %{GREEDYDATA:LogMessage}"}
+  }
+}

@@ -1,0 +1,98 @@
+API接口地址：
+	http://39.108.167.240:8088/swagger-ui.html#!/29992251433749226435API/signinUsingPOST
+
+后台地址：
+	http://39.108.167.240/#/resource/video
+	账号：guest
+	密码：password
+
+
+GitLab地址：
+	http://119.23.63.200/    
+	账号：zhuhaolin    
+	密码：zhuhaolin123
+
+
+数据库：
+	dev:
+		ip：39.108.167.240
+		端口：3306
+		用户名：admin
+		密码：admin@2019
+	
+	test：
+		ip：119.23.31.23
+		端口：3306
+		用户名：admin
+		密码：admin@2019
+
+
+redis：
+	host：119.23.31.23
+	host-name：119.23.31.23
+	port：6379
+	passowrd：
+
+
+Jenkins:
+	账号：zhuhaolin
+	密码：12345678
+
+
+文件共享：
+	地址：ftp://192.168.2.6/    
+	用户名：dabai
+	密码：dabai2019
+
+
+尖果后台管理系统：
+	dev环境：
+		地址：http://dev.zyzygame.com
+	test环境：
+		地址：http://test.zyzygame.com
+
+用120.78.144.113或jingle.zyzygame.com替换服务器地址。这个是生产环境
+账号：xxting
+密码：xxt442518
+
+
+大白科技Linux：
+	地址：39.108.167.240
+	用户名：root
+	密码：Dabai@2019
+
+
+公司网络：
+	研发需要翻墙的，可以连接DakeData5G 密码是dake2019
+	不支持5G的设备，可以连接DakeData，密码是dake2019
+	非研发使用手机，可以连接DaBai，密码是20170218Wh
+
+linux：
+	ip：39.108.167.240
+	端口：22
+	passowrd：Dabai@2019
+
+
+七牛：
+	ip：http://img.zyzygame.com/icon/big/图片名
+
+
+
+
+mini小程序：
+	域名：http://mini.zyzygame.com
+        API文档地址：http://mini.zyzygame.com:8089/swagger-ui.html#/
+	mysql:
+		- 内网地址:jingle-xcx.mysql.rds.aliyuncs.com
+		- 外网地址:rm-wz9ylcqgqaf0hb6hgfo.mysql.rds.aliyuncs.com
+		- 端口号：3306
+		- 用户名：jingleadmin
+		- 密码：Dabai@2019
+	Redis
+		- 内网连接地址：r-wz96iu6w6k1pywvr4i.redis.rds.aliyuncs.com
+		- 外网连接地址：r-wz96iu6w6k1pywvr4ipd.redis.rds.aliyuncs.com
+		- 端口号：6379
+		- 密码：Dabai@2019
+
+
+

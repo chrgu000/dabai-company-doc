@@ -1,0 +1,31 @@
+x-appId-header            账户
+x-sign-header             签名(接口加密后)
+x-nonce-header            随机数
+x-request-time-header     请求时间
+
+x-appId-header    账户
+这个账号，为每个客户下发一套账号和密码，这个账号用于后端获取密码，用密码对接口参数进行加密，然后与前端传过来的加密参数进行校验
+    
+
+x-sign-header     签名
+这个sign，当前请求求接口的参数与密码使用sha256进行加密后的64位字符串
+
+
+x-nonce-header    随机数
+这个随机数，随机数在有限时间内，只能请求一次，随机数定为10位长度，有效时间为600秒
+
+
+x-request-time-header  请求时间
+这个请求时间，指的是发起请求到后端接受请求之间的时间段，是否超过指定时间，
+默认有效时间为300秒，时间格式【时间戳】
+
+
+
+
+Body参数加密
+
+{"name":"zhuhaolin","password":"123456"}&随机数&请求时间
+
+加密方式 HmacSHA256
+
+{}
