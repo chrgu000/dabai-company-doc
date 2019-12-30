@@ -1,0 +1,21 @@
+{
+	"client_id": "b7f4064bc734eba386",
+	"id": "393516773672772321",
+	"kdt_id": 18806628,
+	"kdt_name": "¼â¹ûÉÌ³Ç",
+	"mode": 1,
+	"msg": {
+		"card_alias": "Y2flg8en3hdko4",
+		"card_no": "393516773672772321",
+		"event_time": "2019-11-12 17:03:14",
+		"fans_id": 0,
+		"fans_type": 0,
+		"mobile": ""
+	},
+	"sendCount": 0,
+	"sign": "e2bdad798224cba47a66431069e3c82a",
+	"status": "CUSTOMER_CARD_UPGRADED",
+	"test": false,
+	"type": "SCRM_CUSTOMER_CARD",
+	"version": 1573549394
+}

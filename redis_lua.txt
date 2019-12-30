@@ -1,0 +1,27 @@
+Redis：
+  Lua环境：
+    keys、argv
+语法：
+  script kill
+  script flush
+  script load script[script]
+  script exists script[script]
+
+执行：
+  evalsha sha1 numberKeys key[key...] arg[arg...]
+  eval script numberKeys key[key...] arg[arg...]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
