@@ -63,9 +63,10 @@ Jenkins:
 
 
 公司网络：
-	研发需要翻墙的，可以连接DakeData5G 密码是dake2019
-	不支持5G的设备，可以连接DakeData，密码是dake2019
-	非研发使用手机，可以连接DaBai，密码是20170218Wh
+	研发需要翻墙的，可以连接DakeData5G 密码是  dake2019
+	不支持5G的设备，可以连接DakeData，密码是  dake2019
+	非研发使用手机，可以连接DaBai，密码是   20170218Wh
+	Xiaomi3-dabai，密码是 20170218Wh
 
 linux：
 	ip：39.108.167.240
